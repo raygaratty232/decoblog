@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,700');
 body{
     background: #f9f9fb;
+    overflow: hidden;
 }
 a{
 	text-decoration: none;
@@ -72,18 +73,20 @@ a{
     justify-content: space-around;
 }
 .social-block a:hover{
-    color: #999999;
+    color: #999;
 }
 .social-block a{
     color: #fff;
     display: block;
-    line-height: 64px;
-    text-align: center;
 }
 .social-block{
     width: 20%;
     height: 55px;
     border-right: 1px solid #3c3c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .social-block:first-child{
     border-left: 1px solid #3c3c3c;
@@ -94,11 +97,12 @@ a{
     position: relative;
     margin-top: -290px;
     width: 100%;
+    min-height: 180px;
+    height: 100%;
 }
 .sl img{
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 580px;
     position: relative;
     max-width: 100%;
     width: 1300px;
@@ -108,8 +112,8 @@ a{
 }
 .text-sl{
     position: absolute;
-    bottom: 270px;
-    left: 80px;
+    bottom: 210px;
+    left: 50px;
 }
 .text-sl h1{
     color: #fff;
@@ -117,6 +121,7 @@ a{
     font-family: 'Hind', sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
+    font-size: 50px;
 }
 .text-sl p{
     font-size: 18px;
@@ -282,6 +287,11 @@ a{
 	border-left: 1px solid;
 	border-right: 1px solid;
 	margin-top: 5%;
+}
+.crowed-button:hover{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    transition: 3s;
 }
 .crowed-button a{
 	display: block;
@@ -767,9 +777,16 @@ a{
     .social-top{
         width: 50%;
     }
+    .crowed-caption h2{
+        font-size: 18px;
+    }
+    .text-sl h1{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 400px){
     .logo{
         display: none;
     }
+
 }
