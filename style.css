@@ -773,6 +773,12 @@ a{
     .head-wrapper{
         min-height: 520px;
     }
+    .text-sl h1{
+        font-size: 20px;
+    }
+    .text-sl{
+        bottom: 150px;
+    }
 }
 @media only screen and (max-width: 450px){
     .img-block{
@@ -784,9 +790,7 @@ a{
     .crowed-caption h2{
         font-size: 18px;
     }
-    .text-sl h1{
-        font-size: 20px;
-    }
+
 }
 @media only screen and (max-width: 400px){
     .logo{
