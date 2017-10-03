@@ -121,7 +121,7 @@ a{
     font-family: 'Hind', sans-serif;
     font-weight: bold;
     letter-spacing: 5px;
-    font-size: 50px;
+    font-size: 35px;
 }
 .text-sl p{
     font-size: 18px;
@@ -749,6 +749,7 @@ a{
     }
     .left-block{
         margin:auto;
+        width: 90%;
     }
 }
 @media only screen and (max-width:504px){
@@ -767,7 +768,10 @@ a{
     .drop-menu{
         display: block;
         width: 90px;
-
+        background-color: #212429;
+    }
+    .head-wrapper{
+        min-height: 520px;
     }
 }
 @media only screen and (max-width: 450px){
