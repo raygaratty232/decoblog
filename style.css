@@ -8,7 +8,7 @@ a{
 	text-decoration: none;
 }
 .head-wrapper{
-    max-width: 1348px;
+    max-width: 100%;
     min-height: 790px;
     position: relative;
 }
